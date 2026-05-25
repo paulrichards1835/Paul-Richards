@@ -1,0 +1,44 @@
+body{
+    background: white;
+}
+
+.maincontainer{
+    width: 600px;
+    margin: 100px;
+    background-color: rgb(121, 222, 121);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.form-box{
+    background:white;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Lucida Calligraphy;
+}
+
+h2{
+    font-size: 40px;
+    font-family: lucida calligraphy;
+
+}
+
+.row{
+    margin: 10px ;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    font-size: 20px;
+}
+
+input,select{
+    width: 200px;
+    padding: 5px;
+}
