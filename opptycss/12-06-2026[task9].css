@@ -1,0 +1,79 @@
+.a{
+    background-color: dimgrey;
+    border: 1px solid;
+    height: 50px;
+}
+
+.b{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+   
+       
+}
+.searchbar input{
+    padding: 10px;
+}
+.searchbar button{
+    padding: 10px;
+}
+.dropdown select{
+    padding: 10px;
+}
+.clickpic img{
+  padding-left: 5px;
+  
+}
+.clickpic a{
+    text-decoration: none;
+}
+.c{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    gap: 10px;
+    
+}
+.head2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    gap: 10px;
+}
+.head1 i{
+    font-size: 20px;
+    margin-top: 23px;
+}
+.head2 i{
+    font-size:20px ;
+    margin-top:23px ;
+}
+.head-d h2{
+    margin-left:600px ;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.news1{
+    border: 1px solid;
+    height: 250px;
+    width: 700px;
+    display: flex;
+}
+
+
+
