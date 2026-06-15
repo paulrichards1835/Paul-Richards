@@ -74,6 +74,361 @@
     width: 700px;
     display: flex;
 }
+.mainnews{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    
+}
+
+.topboxleft{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.downboxleft{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.topboxright{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.downboxright{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.leftcoloumn{
+    width: 700px;
+    
+}
+.rightcoloumn{
+    width: 700px;
+   
+}
+.topboxleftdescription a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.topboxleftdescription a :hover{
+    text-decoration: underline;
+}
+.downboxleftdescription a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.downboxleftdescription a :hover{
+    text-decoration: underline;
+}
+.topboxrightdescription a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black; 
+}
+.topboxrightdescription a :hover{
+    text-decoration: underline;
+}
+.downboxrightdescription a{
+   text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.downboxrightdescription a :hover{
+    text-decoration: underline;
+}
+
+.btn {
+    margin-top: 20px;
+    text-align: center;
+
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.btn button{
+    padding: 20px 20px;
+    background-color: gold;
+    border: none;
+}
+.photogallery{
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 10px solid;
+    height: 530px;
+    width: 1400px;
+
+    
+}
+.imagegallery{
+    display: flex;
+    gap: 10px;
+    margin-left: 1px;
+}
+
+.photogalleries1 button{
+   position: absolute;
+   background-color: yellow;
+   left: 90px;
+   top: 1660px;
+   padding: 10px; 
+   border: none; 
+}
+.photogalleries2 button{
+   position: absolute;
+   background-color: yellow;
+   left: 500px;
+   top: 1660px;
+   padding: 10px; 
+   border: none;  
+
+}
+.photogalleries3 button{
+   position: absolute;
+   background-color: yellow;
+   left: 800px;
+   top: 1660px;
+   padding: 10px;
+   border: none;   
+
+}
+.photogalleries4 button{
+   position: absolute;
+   background-color: yellow;
+   left: 1200px;
+   top: 1660px;
+   padding: 10px;
+   border: none;   
+
+}
+.imagegallery a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+   
+}
+.e{
+    display: flex;
+}
+.e1{
+    background-image: url(https://www.pmindia.gov.in/wp-content/themes/pmindia2015/images/bg-block1.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    height: 800px;
+    width: 1500px;
+}
+.e1 h1{
+    padding-left: 30px;
+    font-size: 50px;
+}
+.e1 p{
+    padding-left: 30px;
+    padding-right: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.e1 button{
+    margin-left: 30px;
+    padding: 15px 30px;
+    background-color:skyblue;
+    border: none;
+    margin-top: 30px;
+}
+.e1 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.e2{
+    height: 800px;
+    width: 900px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+.pm{
+    background-color: indianred;
+    height: 230px;
+}
+.pm img{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.knowpm{
+    background-color: rgb(131, 86, 86);
+    height: 200px;
+    margin-top: -20px;
+      
+}
+.knowpm h2{
+    color: white;
+    text-align: center; 
+    
+}
+
+
+.knowpm p{
+    color: white;
+    text-align: center;
+}
+.knowpm a{
+    text-decoration: none;
+}
+.knowpm button{
+    background-color: skyblue;
+    padding: 15px 30px;
+    margin-left: 10px;
+    border: none;
+    
+}
+.knowpm button a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.formerpm{
+    background-color: rgb(57, 60, 66);
+    height: 370px;
+    margin-top: -20px;
+}
+.formerpmhead h2{
+    color: white;
+    text-align: center;
+
+}
+.formerpmimages img{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+  
+
+}
+
+
+.formerpmimages a img:hover{
+    border-color: gold;
+    
+   
+}
+
+.e3{
+    background-image: url(https://www.pmindia.gov.in/wp-content/themes/pmindia2015/images/bg-block3.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    height: 800px;
+    width: 1500px;
+
+}
+.e3 h1{
+    padding-left: 30px;
+    font-size: 50px;
+}
+.e3 p{
+    padding-left: 30px;
+    padding-right: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.e3 button{
+    margin-left: 30px;
+    padding: 15px 30px;
+    background-color:skyblue;
+    border: none;
+    margin-top: 30px;
+}
+.e3 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.f{
+    background-color: rgb(13, 49, 92);
+    height: 350px;
+}
+.f1 h1{
+    color: white;
+    padding-top: 20px;
+    margin-left: 600px;
+    font-family: Lato, sans-serif;
+    font-size: 44.8px;
+}
+.f2{
+    display: flex;
+    gap: 80px;
+    margin-left: 450px;
+}
+.text1 a {
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 28.8px;
+    text-decoration: none;  
+}
+.text1 a:hover{
+    text-decoration: underline;
+
+}
+.text2 a{
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 28.8px;
+    text-decoration: none;
+}
+.text2 a:hover{
+    text-decoration: underline;
+}
+.g{
+    background-color: rgb(57, 60, 66);
+    height: 500px;
+}
+.g1 h1{
+    color: white;
+    font-family: Lato, sans-serif;
+    margin-left: 600px;
+    
+}
+.g2 img{
+    padding-left: 50px;
+}
+.h{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(82, 82, 82);
+    height: 100px;
+    padding: 20px;
+}
+.h p{
+    color: white;
+}
+.h3 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.h4 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.h4 a:hover{
+    text-decoration: underline;
+}
+.h3 a:hover{
+    text-decoration: underline;
+}
+
+
+  
+
 
 
 
