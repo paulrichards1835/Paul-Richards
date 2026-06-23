@@ -14,12 +14,7 @@
     
    
 }
-/* .a2{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-   
-} */
+
 .a2{
     display: flex;
     justify-content: space-between;
@@ -150,5 +145,119 @@
     
 
 }
+.e{
+    border: 1px solid;
+    height: 650px;
+    margin-top: 150px;
+
+}
+.e{
+    background-image: url(https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-parallax-1-1.jpg);
+    background-size:cover;
+}
+.e2 h1{
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    font: "Playfair Display", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.e4{
+    display: flex;
+    
+}
+.e4 input{
+    margin-left: 300px;
+    padding: 20px 300px;
+}
+.e4 button{
+    padding: 20px 40px;
+}
+.f{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(34, 34, 34);
+    font-family: " Playfair Display", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+.g{
+    display: flex;
+    margin-top: 100px;
+      
+}
+.g figcaption {
+    text-align: center;   
+}
+.g a{
+    text-decoration: none;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    color: black;
+}
+.g a:hover{
+    color: rgb(182, 116, 83); 
+}
+.k{
+    background-image: url(https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-background-2.jpg);
+}
+.k1{
+    display: flex;
+    gap:180px;
+    margin-left: 210px;
+    margin-top: 100px;
+}
+.k2{
+    display: flex;
+}
+.k2a a{
+    display: block;
+    text-decoration: none;
+    color: rgb(129, 125, 125);
+    margin-left:210px ;
+    padding: 5px;
+    
+}
+.k2a a:hover{
+   color: rgb(182, 116, 83);  
+}
+.l{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.l1{
+    display: flex;
+    margin-left: 50px;
+}
+.l1 a{
+    text-decoration: none;
+    color: black;
+
+}
+.l1 a:hover{
+     color: rgb(182, 116, 83); 
+}
+.l2{
+    margin-top: 10px;
+}
+.l3{
+    margin-top: 10px;
+    margin-right: 50px;
+   
+}
+.l3 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.l3 a:hover{
+    color: rgb(182, 116, 83);
+}
+
 
 
