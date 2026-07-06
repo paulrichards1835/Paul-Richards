@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* <!--SECTION A--> */
+        header{
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .a1{
+            margin-left: 200px;
+        
+        }
+        .a1 h1{
+            color: white;
+        }
+        .a2{
+            display: flex;
+            gap: 50px;
+            margin-top: 30px;
+            margin-right: 200px;
+        }
+        .a2 a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+        }
+
+        /* <!--SECTION B--> */
+        .b{
+            height: 500px;
+            border: 1px solid;
+            margin-top: 10px;
+            text-align: center;
+            background-color: aquamarine;
+            animation: b 5s ease 1s 5 ;
+        }
+        @keyframes b{
+            from{
+                transform: translatex(-1500px);
+            }
+            to{
+               transform: translatex(0px);
+            }
+        }
+        .b h1{
+            margin-top: 100px;
+        }
+
+
+        /* <!--SECTION C--> */
+        .c{
+            display: flex;
+            
+        }
+        .c h1{
+            margin-left: 300px;
+
+        }
+        .c1{
+            display: flex;
+            gap: 250px;
+            
+        }
+        .c1a{
+            margin-left: 100px;
+            background-color: brown;
+            width: 500px;
+            border-radius: 20px;
+            color: white;
+            position: relative;
+            animation: leftbox 3s ease-out 1s 1 ;
+            
+        }
+        @keyframes leftbox{
+             0%{
+                transform: rotate(0deg);
+             }
+             100%{
+                transform: rotate(360deg);
+             }
+        }
+        
+        .c1a h2{
+            text-align: center;
+        }
+        .c1a h3{
+            margin-left: 20px;
+        }
+        .c1b{
+            background-color: blueviolet;
+            width: 500px;
+            color: white;
+            border-radius: 30px;
+            position: relative;
+            animation:rightbox 5s ease-in 1s 1;
+        }
+        @keyframes rightbox{
+            0%{
+                transform: skew(0deg);
+                background-color: rgb(255, 0, 0);
+              
+            }
+            100%{
+                transform: skew(50deg);
+                
+            }
+        }
+         
+        .c1b h2{
+            text-align: center;
+
+        }
+        .c1b h3{
+            margin-left: 40px ;
+        }
+
+        /* <!--SECTION D--> */
+        .example{
+            margin-top: 50px;
+        }
+
+        .d{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 50px;
+            
+        }
+        .d1{
+            border: 1px solid;
+            text-align: center;
+            border-radius: 20px;
+               
+        }
+        .d1:hover{
+            animation: fadein 5s  infinite ;
+            background-color: darkorange;
+        }
+        @keyframes fadein{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+
+        }
+
+        .d2{
+            border: 1px solid;
+            text-align: center;
+            border-radius: 20px;
+               
+        }
+        .d2:hover{
+            animation: fadeout 5s  infinite ;
+            background-color: blue;
+
+        }
+        @keyframes fadeout{
+            from{
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }
+
+        }
+
+        .d3{
+            border: 1px solid;
+            text-align: center;
+            border-radius: 20px;
+
+        }
+        .d3:hover{
+            animation: zoomin 5s  infinite ;
+            background-color: rgb(33, 225, 78);
+
+        }
+        @keyframes zoomin{
+            from{
+                transform: scale(0.5);
+            }
+            to{
+                transform: scale(1);
+            }
+
+        }
+
+        .d4{
+            border: 1px solid;
+            text-align: center;
+            border-radius: 20px;
+
+        }
+        .d4:hover{
+            animation: zoomout 5s  infinite ;
+            background-color: rgb(215, 249, 61);
+
+        }
+        @keyframes zoomout{
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(0.5);
+            }
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <!--SECTION A-->
+    <header>
+        <div class="a1">
+            <h1>CSS Tutorialspot</h1>
+
+        </div>
+        <div class="a2">
+            <a href="animations tutorial.html" target="_self">CSS ANIMATIONS</a>
+            <a href="30-06-26[about].html" target="_self">ABOUT</a>
+            <a href="30-06-26[achievements].html" target="_self">ACHIEVEMENTS</a>
+            <a href="30-06-26[leadership].html" target="_self">LEADERSHIP</a>
+
+        </div>
+
+    </header>
+    
+    <!--SECTION B-->
+    <div class="b">
+        <h1><b>ANIMATION</b></h1>
+        <p>CSS animation makes an element move or change automatically over time.For example A box moving from left to right , a button changing color ,an image rotating and a text fades in.</p>
+        <p>CSS animations always need two parts.</p>
+        <dl>
+            <dt>1.@Keyframes</dt>
+            <dd>This tells CSS what should happen.</dd> <br>
+            <dt>2.@animation</dt>
+            <dd>This tells CSS how the animation should run</dd>
+
+
+        </dl>
+
+
+    </div>
+
+
+    <!--SECTION C-->
+    <div class="c">
+        <h1>Basic syntax of css animation syntax and keyframe syntax</h1>
+
+    </div>
+
+    <div class="c1">
+        <div class="c1a">
+            <h2>CSS Syntax</h2>
+            <h3>selector {
+                         animation-name: name; <br>
+                          animation-duration: time; <br>
+                          animation-iteration-count: number; <br>
+                          animation-timing-function: ease | linear | etc; <br>
+                          animation-delay: time; <br>
+                          animation-direction: normal | reverse | alternate;
+                        }</h3>
+
+        </div>
+        <div class="c1b">
+            <h2>Keyframes Syntax</h2>
+            <h3>@keyframes animation-name{ <br>
+
+                from {
+                    /* CSS properties */
+                    } <br>
+
+                to{
+                    /* CSS properties */
+                    } <br>
+                                             
+                }                        
+                                        
+            </h3>
+
+        </div>
+
+    </div>
+
+    <!--SECTION D-->
+    <div class="example">
+        <h1>EXAMPLES</h1>
+
+    </div>
+
+    
+    <div class="d1">
+        <h1>Fadein</h1>
+        <p>Element gradually appear on screen</p>
+
+    </div> <br>
+    <div class="d2">
+        <h1>Fadeout</h1>
+        <p>Element gradually dissappears on screen</p>
+
+    </div> <br>
+    <div class="d3">
+        <h1>Zoomin</h1>
+        <p>Smoothly increases the size of element</p>
+
+    </div> <br>
+    <div class="d4">
+        <h1>Zoomout</h1>
+        <p>Smoothly decreases the size of element</p>
+
+    </div>
+    
+    
+</body>
+</html>
