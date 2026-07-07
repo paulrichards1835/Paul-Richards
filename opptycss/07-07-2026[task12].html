@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* <!--header section--> */
+        .a{
+            display: flex;
+            gap: 30px;
+            margin-top: 50px;
+           
+           
+        }
+         .a1{
+            background-color: yellow;
+            width: 200px;
+
+        }
+        .a1 img{
+            margin-left: 50px;
+        }
+        .a2 input{
+            padding: 10px 300px;
+            
+        }
+        .a2 button{
+            padding: 10px 100px;
+            background-color: blue;
+            color: white;
+        }
+        .a3 i{
+            font-size: xx-large;
+        }
+
+        /* <!--hero section--> */
+        .b{
+            margin-top: 50px;
+        }
+
+
+        /* <!--card section--> */
+        .c{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            height: 400px;
+            margin-top: 50px;
+            gap: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+
+        }
+        .c1{
+            border:none;
+            box-shadow: 0px 0px 9px;
+
+            
+        }
+        .c2{
+            border:none;
+            box-shadow: 0px 0px 9px;
+        }
+        .c3{
+            border:none;
+            box-shadow: 0px 0px 9px;
+        }
+        .c4{
+            border:none;
+            box-shadow: 0px 0px 9px;
+        }
+
+        /* <!--1.card--> */
+        .c1 img{
+            margin-left: 60px;
+            margin-top: 50px;
+        }
+        .c1 a{
+            text-decoration: none;
+            color: black;
+            margin-left: 10px;
+        }
+        .c1 p{
+            margin-left: 10px;
+        }
+        .c1 h2{
+            margin-left: 10px;
+        }
+        /* <!--2.card--> */
+         .c2 img{
+            margin-left: 60px;
+            margin-top: 50px;
+        }
+        .c2 a{
+            text-decoration: none;
+            color: black;
+            margin-left: 10px;
+        }
+        .c2 p{
+            margin-left: 10px;
+        }
+        .c2 h2{
+            margin-left: 10px;
+        }
+         /* <!--3.card--> */
+         .c3 img{
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+        .c3 a{
+            text-decoration: none;
+            color: black;
+            margin-left: 10px;
+        }
+        .c3 p{
+            margin-left: 10px;
+        }
+        .c3 h2{
+            margin-left: 10px;
+        }
+         /* <!--4.card--> */
+         .c4 img{
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+        .c4 a{
+            text-decoration: none;
+            color: black;
+            margin-left: 10px;
+        }
+        .c4 p{
+            margin-left: 10px;
+        }
+        .c4 h2{
+            margin-left: 10px;
+        }
+
+        /* <!--Footer section--> */
+         .d{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(51, 51, 223);
+            margin-top: 100px;
+            height:73px;
+           border-bottom-left-radius: 10px;
+           border-bottom-right-radius: 10px;
+        }
+        .d1{
+            margin-top: 10px;
+            margin-left: 50px;
+            color: white;
+
+        }
+        .d2{
+            margin-right: 100px;
+            margin-top: 20px;
+
+        }
+        .d2 i{
+            font-size: 40px;
+            color: white;
+        }
+
+         
+        
+        .a2 input:focus{
+            color: blue;
+        }
+
+        .a2 button:active{
+            background-color: darkorange;
+
+        }
+
+        /* <!--Animations--> */
+        .a1 img{
+            animation: zoom 4s linear 1s infinite ;
+        }
+        @keyframes zoom{
+            from{
+                transform: scale(0.3);
+            }
+            to{
+                transform: scale(1.1);
+            }
+        }
+
+        .a2 input:focus{
+            color: blue;
+        }
+
+        .a2 button:active{
+            background-color: darkorange;
+
+        }
+
+        .a3 i{
+            animation: bounce 2s linear 1s infinite ;
+        }
+        @keyframes bounce{
+            0%{transform: translateY(0);}
+            50%{transform: translateY(-10px);}
+            100%{transform: translateY(0);}
+        }
+
+        .b img{
+            animation: fadein 4s ease-out 1s infinite ;
+        }
+        @keyframes fadein{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+
+        .c1:hover{
+            background-color: aquamarine;
+            animation: moveup 2s ease 1s infinite ;
+        }
+        @keyframes moveup{
+             from{
+                transform: translateY(0px);
+            }
+            to{
+               transform: translateY(-80px);
+            }
+        }
+
+
+        .c2:hover{
+            background-color: aquamarine;
+             animation: rotate 5s ease 1s infinite ;
+
+        }
+         @keyframes rotate{
+             from{
+                transform: rotateX(0deg);
+            }
+            to{
+               transform: rotateX(360deg);
+            }
+        }
+         .c3:hover{
+            background-color: aquamarine;
+             animation: skew 2s ease 1s infinite ;
+
+        }
+         @keyframes skew{
+             from{
+                transform: skew(0deg);
+            }
+            to{
+               transform: skew(10deg);
+            }
+        }
+
+        .c4:hover{
+            background-color: aquamarine;
+             animation: zoomout 2s ease 1s infinite ;
+
+        }
+         @keyframes zoomout{
+             from{
+                transform: scale(1.5);
+            }
+            to{
+               transform: scale(1);
+            }
+        }
+
+        .d2 i{
+            animation: icons 2s ease-out 1s infinite ;
+        }
+        @keyframes icons{
+            from{ 
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+       
+       
+    </style>
+</head>
+<body>
+    <!--header section-->
+    <div class="a">
+        <div class="a1">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/92/36/image/31f7e3af490c225f.png?q=60">
+
+        </div>
+        <div class="a2">
+            <form>
+                <input type="search" id="search" name="seaarch" placeholder="search">
+                <button>search</button>
+            </form>
+
+        </div>
+        <div class="a3">
+           <i class="fa-solid fa-user"></i>
+           <i class="fa-solid fa-cart-arrow-down"></i>
+
+        </div>
+
+    </div>
+
+    <!--hero section-->
+    <div class="b">
+        <a href="https://www.flipkart.com/beauty-and-grooming/~cs-gjx3e587vt/pr?sid=g9b&collection-tab-name=Beardo&Param=72551&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=QS83T07ONPSD_AD&BU=Mixed">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/3140/700/image/8e263d34fa840ec7.png?q=60" height="500px" width="1500px">
+        </a>
+    </div>
+
+    <!--card section-->
+    <div class="c">
+        <div class="c1">
+            <a href="https://www.flipkart.com/wild-stone-hydra-energy-eau-de-parfum-100-ml/p/itm7c728badcb9d7?pid=PEREREB74EJPCRDZ&lid=LSTPEREREB74EJPCRDZNI6TLH&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=en_72EXvKYCqq-WMhAHOt_xaTQF5yuzss3RScEhG30HuWGMpqs5W8kuQ1wOzQmXfEcrV61DZ_IYnO85s-6AyWt8UCtx5ALVAGwSVx5H0ooFEjhldGQ2NgHDeGlY8J3qYLDI&ppt=sp&ppn=sp&ssid=pxhejhwyyo0000001783416859435&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">
+                <img src="https://rukminim2.flixcart.com/image/1536/1536/xif0q/perfume/1/g/w/-original-imah3g7w6hm2ygw9.jpeg?q=90" height="200px" width="200px"> <br>
+            </a>
+            <a href="https://www.flipkart.com/wild-stone-hydra-energy-eau-de-parfum-100-ml/p/itm7c728badcb9d7?pid=PEREREB74EJPCRDZ&lid=LSTPEREREB74EJPCRDZNI6TLH&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=en_72EXvKYCqq-WMhAHOt_xaTQF5yuzss3RScEhG30HuWGMpqs5W8kuQ1wOzQmXfEcrV61DZ_IYnO85s-6AyWt8UCtx5ALVAGwSVx5H0ooFEjhldGQ2NgHDeGlY8J3qYLDI&ppt=sp&ppn=sp&ssid=pxhejhwyyo0000001783416859435&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">Wild Stone Hydra Energy perfume 100 ml</a>
+            <p>For Men</p>
+
+            <h2><del>💲699</del>💲349</h2>
+            <p>50% off</p>
+
+        </div>
+        <div class="c2">
+            <a href="https://www.flipkart.com/beardo-god-father-wishky-smoke-edp-ml-perfume-set-2-pcs-eau-de-parfum-200/p/itm66d8d906f9f0b?pid=PERG72JDZHJQV66M&lid=LSTPERG72JDZHJQV66MNSWPTX&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=en_72EXvKYCqq-WMhAHOt_xaTQF5yuzss3RScEhG30HuWH_YlJLF3DN6pLVIYu6hIPp3rLDIGunZZahgqzDM82YdcjAz9kJ4QyLnDCKOIkexnDeXpm6i4VHYD0a4jON2qxP9QWMJPI4egdmz5nn89L_DQ%3D%3D&ppt=sp&ppn=sp&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">
+                <img src="https://rukminim2.flixcart.com/image/1536/1536/xif0q/perfume/u/8/x/-original-imahzef6fz2tbuvg.jpeg?q=90" height="200px" width="200px"> <br>
+            </a>
+            <a href="https://www.flipkart.com/beardo-god-father-wishky-smoke-edp-ml-perfume-set-2-pcs-eau-de-parfum-200/p/itm66d8d906f9f0b?pid=PERG72JDZHJQV66M&lid=LSTPERG72JDZHJQV66MNSWPTX&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=en_72EXvKYCqq-WMhAHOt_xaTQF5yuzss3RScEhG30HuWH_YlJLF3DN6pLVIYu6hIPp3rLDIGunZZahgqzDM82YdcjAz9kJ4QyLnDCKOIkexnDeXpm6i4VHYD0a4jON2qxP9QWMJPI4egdmz5nn89L_DQ%3D%3D&ppt=sp&ppn=sp&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">BEARDO God Father and wishky smoke EDP ml Perfume Set of 2 Pcs Ea.</a>
+            <p>For Men</p>
+
+            <h2><del>💲799</del>💲399</h2>
+            <p>50% off</p>
+
+        </div>
+        <div class="c3">
+            <a href="https://www.flipkart.com/villain-classic-perfume-long-lasting-edp-bold-woody-fragrance-eau-de-parfum-100-ml/p/itma0c7cfe361467?pid=PERG6PEQTJ4FNBCZ&lid=LSTPERG6PEQTJ4FNBCZYZOWP7&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=c4cc3da7-b55c-47a0-b38c-4dde00a06d42.PERG6PEQTJ4FNBCZ.SEARCH&ppt=sp&ppn=sp&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">
+                <img src="https://rukminim2.flixcart.com/image/1536/1536/xif0q/perfume/1/4/e/100-new-black-eau-de-parfume-100ml-mrp-799-eau-de-parfum-villain-original-imahnqfardg2wg6c.jpeg?q=90" height="230px" width="200px"> <br>
+            </a>
+            <a href="https://www.flipkart.com/villain-classic-perfume-long-lasting-edp-bold-woody-fragrance-eau-de-parfum-100-ml/p/itma0c7cfe361467?pid=PERG6PEQTJ4FNBCZ&lid=LSTPERG6PEQTJ4FNBCZYZOWP7&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=c4cc3da7-b55c-47a0-b38c-4dde00a06d42.PERG6PEQTJ4FNBCZ.SEARCH&ppt=sp&ppn=sp&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">VILLAIN Classic perfume | Long Lasting EDP | Bold Woody Fragrance</a>
+            <p>For Men</p>
+
+            <h2><del>💲799</del>💲37</h2>
+            <p>53% off</p>
+
+        </div>
+        <div class="c4">
+            <a href="https://www.flipkart.com/ajmal-oud-dubai-long-lasting-unisex-perfume-eau-de-parfum-100-ml/p/itm830a46a69c13d?pid=PERH79Z5FJMGUAHZ&lid=LSTPERH79Z5FJMGUAHZY9IPIH&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_29&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=08a7b82b-9ca4-4af7-8aff-612005e714eb.PERH79Z5FJMGUAHZ.SEARCH&ppt=sp&ppn=sp&ssid=u8vurmbcr40000001783418811601&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">
+                <img src="https://rukminim2.flixcart.com/image/1536/1536/xif0q/perfume/y/o/x/100-oud-dubai-long-lasting-unisex-perfume-eau-de-parfum-ajmal-original-imahzenazjpd6h3j.jpeg?q=90" height="230px" width="200px"> <br>
+            </a>
+            <a href="https://www.flipkart.com/ajmal-oud-dubai-long-lasting-unisex-perfume-eau-de-parfum-100-ml/p/itm830a46a69c13d?pid=PERH79Z5FJMGUAHZ&lid=LSTPERH79Z5FJMGUAHZY9IPIH&marketplace=FLIPKART&q=perfume+for+men&store=g9b%2F0yh%2Fjhz%2Fxys&srno=s_1_29&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=08a7b82b-9ca4-4af7-8aff-612005e714eb.PERH79Z5FJMGUAHZ.SEARCH&ppt=sp&ppn=sp&ssid=u8vurmbcr40000001783418811601&qH=f90b7eda27b1821a&ov_redirect=true&ov_redirect=true">Ajmal Oud Dubai Long Lasting Unisex Perfume Eau de Parfum  -  100 ml (For Men & Women)</a>
+            <p>For Men & Women</p>
+
+            <h2><del>💲699</del>💲349</h2>
+            <p>50% off</p>
+
+        </div>
+
+    </div>
+
+    <!--footer section-->
+    <div class="d">
+            <div class="d1">
+                <p>&copy; 2024 Flipkart. All Rights Reserved </p>
+
+            </div>
+            <div class="d2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+
+
+
+            </div>
+
+        </div>
+        
+
+    
+    
+</body>
+</html>
