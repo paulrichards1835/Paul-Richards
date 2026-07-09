@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+
         /* <!--nav section--> */
         .a {
             display: flex;
@@ -27,7 +31,7 @@
             text-decoration: none;
             color: black;
             font-size: x-large;
-           
+
         }
 
 
@@ -37,14 +41,16 @@
             text-align: center;
             margin-top: 50px;
         }
-        .b h1{
+
+        .b h1 {
             color: blue;
         }
-        .b h2{
+
+        .b h2 {
             color: rgb(88, 103, 108);
         }
 
-        
+
         .c {
             display: flex;
             gap: 100px;
@@ -61,18 +67,22 @@
             margin-left: 100px;
             margin-top: 80px;
         }
-        .c1 h1{
+
+        .c1 h1 {
             color: blue;
         }
-        .c1 p{
+
+        .c1 p {
             font-size: large;
             color: rgb(88, 103, 108);
         }
-         .c1a {
+
+        .c1a {
             display: flex;
             gap: 20px;
         }
-         .c11 button{
+
+        .c11 button {
             text-decoration: none;
             color: rgb(251, 245, 245);
             background-color: rgb(44, 128, 14);
@@ -80,12 +90,13 @@
             border-radius: 10px;
             padding: 5px 25px;
         }
-        
-         .c12 a{
+
+        .c12 a {
             text-decoration: none;
             color: rgb(251, 245, 245);
         }
-          .c12 button{
+
+        .c12 button {
             background-color: rgb(44, 128, 14);
             border: none;
             border-radius: 10px;
@@ -99,8 +110,8 @@
 
         .c2 img {
             border-radius: 300px;
-            border: 5px solid rgb(156, 221, 170) ;
-            
+            border: 5px solid rgb(156, 221, 170);
+
         }
 
         /* <!--about section--> */
@@ -118,112 +129,129 @@
         }
 
         /* <!--skills & education--> */
-        #skills h1{
-            margin-left: 30px;
+        #skills h1 {
+            text-align: center;
             margin-top: 50px;
             color: blue;
         }
-        .e{
+
+        .e {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(5, 1fr);
+            margin-top: 50px;
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+
+        .e1 {
+            height: 150px;
+            width: 250px;
+            border: none;
+            border-radius: 60px;
+            background-color: aqua;
+            box-shadow: 0px 0px 9px;
+
+        }
+
+        .e1 i {
+            font-size: 100px;
+            margin-left: 60px;
+        }
+
+        .e1 h2 {
+            text-align: center;
+        }
+
+        #education h1 {
+            margin-top: 90px;
+            text-align: center;
+            color: blue;
+        }
+
+        .f {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .f1 {
+            height: 150px;
+            width: 400px;
+            border: none;
+            border-radius:0 70px 0 70px;
+            background-color: rgb(137, 137, 137);
+            /* box-shadow: 0px 0px 20px; */
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        .f1 p {
+            font-size: large;
+            color: white;
+        }
+
+
+        /* <!--Projects--> */
+        #projects h1 {
+            text-align: center;
+            margin-top: 100px;
+            color: blue;
+        }
+
+        .g {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
             gap: 20px;
             margin-top: 50px;
         }
-        .e1{
-            background-color: blueviolet;
-            color: white;
-            border: none;
-            border-radius: 20px;
-            box-shadow: 0px 0px 9px;
-            width: 300px;
-            margin-left: 200px;
-        }
-        .e1 h2{
-            text-align: center;
-        }
-        .e2{
-            background-color: chocolate;
-            color: white;
-            border: none;
-            border-radius:20px;
-            box-shadow:0px 0px 9px ;
-            width: 500px;
-        }
-        .e2 h2{
-            text-align: center;
-        }
 
-        /* <!--Projects, languages known &hobbies--> */
-        #projects h1{
-            margin-left: 30px;
-            margin-top: 150px;
-            color: blue;
-        }
-        .f{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            
-            margin-top: 50px;
-        }
-        .f1{
-            background-color: cadetblue;
+        .g1 {
+            background-color: rgb(255, 78, 101);
             color: white;
             border: none;
-            border-radius: 20px;
-            box-shadow: 0px 0px 9px;
-            width: 500px;
-            margin-left: 200px;
-             
+            border-radius:100px;
+            box-shadow: 0px 0px 20px;
+            width: 420px;
+            height: 150px;
+            margin-left: 40px;
+            font-size: large;
+
         }
-        .f2{
-            background-color: goldenrod;
-            color: white;
-            border: none;
-            border-radius: 20px;
-            box-shadow: 0px 0px 9px;
-            width: 300px;
-            margin-left: 210px;
-             
-        }
-        .f1 h2{
-            text-align: center;
-        }
-        .f2 h2{
-            text-align: center;
-        }
-        .f1 dl{
+        .g1 dl {
             margin-left: 20px;
             margin-top: 40px;
         }
-        .f2 p{
-            margin-left: 30px;
-        }
+
 
         /* <!--contact section--> */
-        #contact h1{
+        #contact h1 {
             color: blue;
             margin-left: 30px;
             margin-top: 50px;
         }
-        #contact p{
+
+        #contact p {
             margin-left: 30px;
             font-size: larger;
         }
-        .career h1{
+
+        .career h1 {
             color: blue;
             margin-left: 30px;
         }
-        .career p{
+
+        .career p {
             margin-left: 30px;
             font-size: larger;
         }
+
         /* <!--footer section--> */
-        footer{
+        footer {
             margin-top: 50px;
             background-color: rgb(225, 234, 230);
             height: 50px;
         }
-        .g p{
+
+        .j p {
             margin-left: 30px;
             padding-top: 15px;
             color: rgb(0, 0, 0);
@@ -231,145 +259,150 @@
         }
 
         /* <!--ANIMATIONS--> */
-    
+
         /* <!--nav section--> */
-        .a1 h1:hover{
+        .a1 h1:hover {
             color: blue;
             transform: translateX(20px);
             transition-duration: 0.5s;
         }
-        .a2 a:hover{
+
+        .a2 a:hover {
             color: red;
             text-decoration: underline;
         }
+
         /* <!--home section--> */
-        .b h1{
+        .b h1 {
             animation: jumpdown linear 1s 1;
         }
-        @keyframes jumpdown{
-            from{
+
+        @keyframes jumpdown {
+            from {
                 transform: translateY(-250px);
-                
+
             }
-            to{
+
+            to {
                 transform: translateY(0px);
             }
 
         }
-        .b h2{
-            animation: fadein 5s linear  1 ;
+
+        .b h2 {
+            animation: fadein 5s linear 1;
         }
-        @keyframes fadein{
-            from{
+
+        @keyframes fadein {
+            from {
                 opacity: 0;
             }
-            to{
+
+            to {
                 opacity: 1;
             }
         }
 
-        .c11 button:active{
-            background-color: blue;
-        }
-        .c12 button:active{
+        .c11 button:active {
             background-color: blue;
         }
 
-        .c2 img:hover{
+        .c12 button:active {
+            background-color: blue;
+        }
+
+        .c2 img:hover {
             transform: scale(1.2);
             transition-duration: 2s;
         }
 
         /* <!--about section--> */
-        #about h1:hover{
+        #about h1:hover {
             color: red;
-            transform: translateX(650px) ;
+            transform: translateX(650px);
             transition-duration: 2s;
         }
+
 
         /* <!--skills & education --> */
-        #skills h1:hover{
-            color: red;
-            transform: translateX(500px);
-            transition-duration: 2s;
+        .e1:hover {
 
+            animation: float 2s linear infinite;
         }
 
-        .e1{
-            animation: slideup 3s linear 1s 3 ;
-        }
-        @keyframes slideup{
-            0%{transform: translateY(0px);}
-            50%{transform: translateY(60px);}
-            100%{transform: translateY(0);}
-
-        }
-        .e2{
-            animation: rotate 8s linear 1s 1 ;
-        }
-        @keyframes rotate{
-            from{
-                transform: rotate(0deg);
+        @keyframes float {
+            0% {
+                transform: translateY(0);
             }
-            to{
-                transform: rotate(360deg);
+
+            50% {
+                transform: translateY(-25px);
+            }
+
+            100% {
+                transform: translateY(0);
             }
         }
 
-         /* <!--Projects, languages known &hobbies--> */
-         #projects h1:hover{
-            transform: translateX(450px);
-            color: red;
-            transition-duration: 2s;
+        .f1:hover {
+            animation: movedown 1s ease-in 1;
+        }
 
-         }
-        .f1{
-            animation: slide 3s linear 1s 3 ;
-        }
-        @keyframes slide{
-            0%{transform: translateX(0px);}
-            50%{transform: translateX(80px);}
-            100%{transform: translateX(0px);}
-        }
-        .f2{
-            animation:zoomin 3s linear 1s 3 ;
-        }
-        @keyframes zoomin{
-            from{
-                transform: scale(0.5);
+        @keyframes movedown {
+            from {
+                transform: translateY(0);
             }
-            to{
-                transform: scale(1);
+
+            to {
+                transform: translateY(30px);
+            }
+
+
+        }
+
+        /* <!--Projects--> */
+
+        .g1:hover {
+            animation: slide 2s linear 0s infinite;
+            background-color: aqua;
+            color: black;
+            
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0px);
+            }
+
+            50% {
+                transform: translateX(50px);
+            }
+
+            100% {
+                transform: translateX(0px);
             }
         }
+
 
         /* <!--contact section--> */
-        #contact h1:hover{
+        #contact h1:hover {
             color: red;
-            transform: translateX(550px);
+            transform: translateX(630px);
             transition-duration: 3s;
 
         }
-        #contact p:hover{
+
+        #contact p:hover {
             font-size: x-large;
             color: deeppink;
 
         }
-        .career h1:hover{
+
+        .career h1:hover {
             color: red;
-            transform: translateX(500px);
+            transform: translateX(550px);
             transition-duration: 3s;
         }
-
-
-
-
-       
-        
-      
-        
-
-
     </style>
 </head>
 
@@ -397,7 +430,7 @@
     <div class="b">
         <h1>PAUL RICHARDS</h1>
         <H2>Frotend Developer | BCA Graduate</H2>
-        
+
     </div>
 
 
@@ -452,80 +485,104 @@
 
     <!--skills & education-->
     <section id="skills">
-        <h1>Technical Skills & Education</h1>
+        <h1>My skills</h1>
 
     </section>
     <div class="e">
         <div class="e1">
-            <h2>SKILLS</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Git & GitHub</li>
-                <li>VS Code</li>
-                <li>Good Typing Skills</li>
-            </ul>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
 
         </div>
-        <div class="e2">
-            <h2>EDUCATION</h2>
-            <ol>
-                <li>
-                    <p>Graduation-Degree | Priyadarshini Degree College-Khammam.</p>
-                    <p>Branch: BCA | Percentage - 6.89cgpa  (2022-2025)</p> <br>
-                </li>
-                <li>
-                    <p>Senior Secondary(Intermediate) | Vidyabharathi Junior College-Sathupally,Khammam</p>
-                    <p>Board Of Intermediate Education - BiPC | Percentage - 82%   (2018-2020)</p> <br>
-                </li>
-                <li>
-                    <p>SSC | V V Vidyalaya High School- Sathupally,Khammam</p>
-                    <p>SSC | CGPA - 8.7     (2017-2018)</p>
-                </li>
-             </ol>
+        <div class="e1">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS</h2>
 
         </div>
+        <div class="e1">
+            <i class="fa-brands fa-js"></i>
+            <h2>Javascript</h2>
+
+        </div>
+        <div class="e1">
+            <i class="fa-brands fa-github"></i>
+            <h2>GitHub</h2>
+
+        </div>
+        <div class="e1">
+            <i class="fa-solid fa-keyboard"></i>
+            <h2>Good Typing Skills</h2>
+
+        </div>
+
     </div>
 
-    <!--Projects, languages known &hobbies-->
-    <section id="projects">
-        <h1>Projects,Languages-known,Hobbies</h1>
+    <section id="education">
+        <h1>Education</h1>
 
     </section>
     <div class="f">
         <div class="f1">
-            <h2>Projects</h2>
-            <dl>
-                <dt>1.College Projects</dt>
-                <dd>Online Food Delivery System</dd>
-            </dl>
-            <dl>
-                <dt>2.Training Projects</dt>
-                <dd>Nara ChandraBabuNaidu Information Portal</dd>
-                <dd>Exclusive Ceramics and Pottery Retailer</dd>
-            </dl>
-            <dl>
-                <dt>3.Personal Projects</dt>
-                <dd>Personal Portfolio Website</dd>
-            </dl>
+            <ul>
+                <li>
+                    <p>Graduation-Degree | Priyadarshini Degree College-Khammam.</p>
+                    <p>Branch: BCA | Percentage - 68% (2022-2025)</p>
+                </li>
+            </ul>
 
         </div>
-        <div class="f2">
-            <h2>Languages-Known</h2>
-            <p>English</p>
-            <p>Telugu</p> <br>
-            <h2>Hobbies</h2>
-            <p>Listening to music</p>
-            <p>Watching TV</p>
-            <p>Reading Books</p>
-            <p>Playing with kids</p>
+        <div class="f1">
+            <ul>
+                <li>
+                    <p>Senior Secondary(Intermediate) | Vidyabharathi Junior College-Sathupally,Khammam</p>
+                    <p>Board Of Intermediate Education | <br>Percentage - 82%
+                </li>
+            </ul>
 
-            
+        </div>
+        <div class="f1">
+            <ul>
+                <li>
+                    <p>SSC | V V Vidyalaya High School- Sathupally,Khammam</p>
+                    <p>SSC | CGPA - 8.7
+                </li>
+            </ul>
 
         </div>
 
     </div>
+
+    <!--Projects-->
+    <section id="projects">
+        <h1>Projects</h1>
+
+    </section>
+    <div class="g">
+        <div class="g1">
+            <dl>
+                <dt>1.College Projects</dt>
+                <dd>→Online Food Delivery System</dd>
+            </dl>
+
+        </div>
+        <div class="g1">
+            <dl>
+                <dt>2.Training Projects</dt>
+                <dd>→Nara ChandraBabuNaidu Information Portal</dd>
+                <dd>→Exclusive Ceramics and Pottery Retailer</dd>
+            </dl>
+
+        </div>
+        <div class="g1">
+            <dl>
+                <dt>3.Personal Projects</dt>
+                <dd>→Personal Portfolio Website</dd>
+            </dl>
+
+        </div>
+
+    </div>
+
 
     <!--contact section-->
     <section id="contact">
@@ -539,12 +596,14 @@
     <!--career objective-->
     <div class="career">
         <h1>Career Objective</h1>
-        <p>I am a Passionate software developer.I can adopt onto any technology rapidly making myself flexible upon any tech stack and want to learn continuously.Seeking a responsible career opurtunity to fully utilize my skills for making a significant contribution to the sucess of company.</p>
+        <p>I am a Passionate software developer.I can adopt onto any technology rapidly making myself flexible upon any
+            tech stack and want to learn continuously.Seeking a responsible career opurtunity to fully utilize my skills
+            for making a significant contribution to the sucess of company.</p>
 
     </div>
 
     <!--footer section-->
-    <footer class="g">
+    <footer class="j">
         <p>&copy; 2026 Paul Richards</p>
 
     </footer>
